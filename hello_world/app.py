@@ -2,7 +2,7 @@ import json
 
 # import requests
 
-
+print("Hello world")
 def lambda_handler(event, context):
     """Sample pure Lambda function
 
