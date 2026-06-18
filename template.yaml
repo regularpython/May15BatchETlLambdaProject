@@ -21,6 +21,7 @@ Resources:
         - x86_64
 
 
+
 Outputs:
   HelloWorldFunction:
     Description: "Hello World Lambda Function ARN"

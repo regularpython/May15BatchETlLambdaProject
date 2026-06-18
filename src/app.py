@@ -12,9 +12,10 @@ def lambda_handler(event, context):
     print(event)
 
     print("Host name: ", host)
-    print("Host name: ", user)
-    print("Host name: ", password)
-    print("Host name: ", port)
+    print("user: ", user)
+    print("password: ", password)
+    print("port: ", port)
+
 
     # s3_content = event['Records'][0]['s3']
     # bucket_name = s3_content['bucket']['name']
