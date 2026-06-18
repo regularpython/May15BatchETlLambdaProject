@@ -4,11 +4,18 @@ import json
 # import boto3
 # import pandas as pd
 import io
-def lambda_handler2(event, context):
-    pass
+
+from src.commons.config import host, password, port, user
+
+
 def lambda_handler(event, context):
     print(event)
-    print("hi this is sairam")
+
+    print("Host name: ", host)
+    print("Host name: ", user)
+    print("Host name: ", password)
+    print("Host name: ", port)
+
     # s3_content = event['Records'][0]['s3']
     # bucket_name = s3_content['bucket']['name']
     # file_name = s3_content['object']['key']
